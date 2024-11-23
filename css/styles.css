@@ -616,7 +616,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 24px; */
+  gap: 24px;
   align-items: flex-end;
   margin-left: auto;
   font-family: inherit;

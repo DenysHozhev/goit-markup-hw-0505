@@ -522,25 +522,88 @@
               </li>
             </ul>
           </div>
-          <form class="form-email">
-            <label>
-              Subscribe
-              <input type="email" name="email" placeholder="E-mail" required />
-            </label>
-            <button class="button-send-footer" type="submit">
-              Subscribe
-              <svg class="svg-footer-img" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
+          <div class="form-footer">
+            <p class="text-subscribe">Subscribe</p>
+            <form class="form-email">
+              <lable for="input-email-footer">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </lable>
+
+              <button class="button-send-footer" type="submit">
+                Subscribe
+                <svg class="svg-footer-img" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </footer>
     </div>
 
     <!-- Modal window -->
-    <div class="modal-overlay">
-      <div class="modal">
+
+    <div class="backdrop">
+      <div class="modal-overlay">
+        <button class="btn-closed">
+          <svg class="modal-svg-closed"  width="8" height="8">
+            <use href="./images/icons.svg#icon-closed">
+            </svg>
+            </button>
+            <p class="text-modal">Leave your contacts and we will call you back</p>
+
+            <form class="form-modal">
+
+              <label class="label-modal" for="input-username">Name</label>
+              <div class="feeld-modal">
+              <input class="input-modal" type="text" name="input-username" id="input-username"> 
+              <svg class="input-svg">
+                <use href="./images/icons.svg#icon-person">
+              </svg> 
+              </div>
+
+               <label class="label-modal" for="input-phone">Phone</label>
+              <div class="feeld-modal">
+              <input class="input-modal" type="tel" name="input-phone" id="input-phone"> 
+              <svg class="input-svg">
+                <use href="./images/icons.svg#icon-phone">
+              </svg> 
+              </div>
+
+               <label class="label-modal" for="input-email">Email</label>
+              <div class="feeld-modal">
+              <input class="input-modal" type="email" name="input-email" id="input-email"> 
+              <svg class="input-svg">
+                <use href="./images/icons.svg#icon-mail">
+              </svg> 
+              </div>
+              <div>
+               <label class="label-modal" for="input-comment">Comment</label>
+                <textarea name="input-comment" rows="7" placeholder="Text input" class="textarea"></textarea> 
+              </div>         
+ 
+            </form>
+            <div>
+             <svg width="10" height="8">
+              <use href="./images/icons.svg#icon-vector">
+             </svg>
+<input type="checkbox" name="checkbox-item">
+<p class="text-policy">I accept the terms and conditions of the <span>Privacy Policy</span></p>
+</div>
+
+
+            <button class="btn-send-overlay" tipe="submit">Send</button>
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="modal-overlay"> -->
+      <!-- <div class="modal">
         <button type="button" class="button-closed">
           <svg class="svg-closed" width="24" height="24">
             <use
@@ -551,9 +614,10 @@
         </button>
         <h3 class="subtitle-overlay">
           Leave your contacts and we will call you back
-        </h3>
-        <!-- <div class="div-form-overlay"> -->
-        <form class="form-overlay">
+        </h3> -->
+
+      <!-- <div class="div-form-overlay"> -->
+        <!-- <form class="form-overlay">
         <div class="div-form-overlay">
           <label for="input-username"
             >Name
@@ -561,20 +625,20 @@
             <div class="div-label-overlay">
             <input type="text" name="input-username" id="input-username"/>
             <svg class="svg-name-input">
-              <use href="./images/icons.svg#icon-person">
+              <use href="./images/icons.svg#icon-person"></use>
             </svg>
             </div>
-          <!-- </label> -->
-        </div>
-         
-        <div class="div-form-overlay">
+           </label>
+        </div> -->
+
+        <!-- <div class="div-form-overlay">
           <label for="input-phone"
             >Phone
             </label>
             <div class="div-label-overlay">
             <input type="tel" name="input-phone" id="input-phone"/>
             <svg class="svg-name-input">
-              <use href="./images/icons.svg#icon-phone">
+              <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
         </div>
@@ -586,15 +650,15 @@
             <div class="div-label-overlay">
             <input type="email" name="input-email" id="input-email"/>
              <svg class="svg-name-input">
-              <use href="./images/icons.svg#icon-mail">
+              <a href="./images/icons.svg#icon-mail"></a>
             </svg>
             </div>
         </div>
           
-          <!-- <label
+           <label
             >Comment
             <input type="text" name="comment" placeholder="Text input" />
-          </label> -->
+          </label> 
           <label for="input-comment"
             >Comment
             <inrut type="text" name="input-comment" id="input-comment">
@@ -606,8 +670,9 @@
           </label>
         </form>
         <form>
+          </div>
           
-            <label class="checkbox-button">
+           <label class="checkbox-button">
                             <input type="checkbox" name="check" value="" required>
               <p class="text-policy">
                 I accept the terms and conditions of the
@@ -617,6 +682,10 @@
           
         </form>
         <button class="button-send-overlay" tipe="submit">Send</button>
+      </div>
+    </div>
+  </body>
+</html> -->
       </div>
     </div>
   </body>

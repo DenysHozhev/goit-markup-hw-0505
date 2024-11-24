@@ -257,7 +257,7 @@ main {
   flex-wrap: wrap;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -909,7 +909,7 @@ main {
 input[type="checkbox"]:checked + .text-policy .span-svg-vector {
   background-color: #404bbf;
   fill: #F4F4FD
-  border: none;
+  border:none;
 }
 
 .btn-send-overlay {

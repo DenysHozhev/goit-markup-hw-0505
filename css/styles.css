@@ -257,7 +257,7 @@ main {
   flex-wrap: wrap;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -777,7 +777,6 @@ main {
   color: #2e2f42;
 
   margin-bottom: 16px;
-  
 }
 
 .form-modal {
@@ -906,10 +905,10 @@ main {
   color: #4d5ae5;
 }
 
-input[type="checkbox"]:checked + .text-policy  .span-svg-vector {
+input[type="checkbox"]:checked + .text-policy .span-svg-vector {
   background-color: #404bbf;
-  fill: #F4F4FD
-  border:none;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .btn-send-overlay {

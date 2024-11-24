@@ -695,11 +695,11 @@ main {
   z-index: 999;
 }
 
-/* .backdrop {
+.backdrop {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-} */
+}
 
 .backdrop.is-open {
   opacity: 1;
@@ -769,11 +769,6 @@ main {
   fill: #fff;
 }
 
-/* .btn-closed:hover + .modal-svg-closed {
-  background-color: #404bbf;
-  fill: #fff;
-} */
-
 .text-modal {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -807,7 +802,6 @@ main {
 .input-modal:focus {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
-  /* fill: #4d5ae5; */
 }
 
 .input-modal {
@@ -862,6 +856,21 @@ main {
   margin-bottom: 24px;
 }
 
+.span-svg-vector {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.svg-vector {
+}
+
 .text-policy {
   font-weight: 400;
   font-size: 12px;
@@ -875,15 +884,6 @@ main {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-}
-
-.svg-vector {
-  padding: 4px 3px;
-  width: 10px;
-  height: 8px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  fill: #404bbf;
 }
 
 .btn-send-overlay {

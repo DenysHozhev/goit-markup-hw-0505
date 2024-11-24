@@ -609,15 +609,20 @@
               ></textarea>
             </div>
           </form>
-          <div>
-            <svg width="10" height="8">
+          <div class="div-check-box">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="visually-hidden"
+            />
+            <svg width="10" height="8" class="svg-vector">
               <use href="./images/icons.svg#icon-vector"></use>
             </svg>
-            <input type="checkbox" name="checkbox-item" />
-            <p class="text-policy">
+            <label class="text-policy" for="user-privacy">
               I accept the terms and conditions of the
-              <span>Privacy Policy</span>
-            </p>
+            </label>
           </div>
 
           <button class="btn-send-overlay" type="submit">Send</button>

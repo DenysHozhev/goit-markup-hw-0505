@@ -728,7 +728,7 @@ main {
   height: 24px;
   border-radius: 50%;
   background-color: #e7e9fc;
-  margin-top: 24px;
+  margin-bottom: 24px;
   margin-left: 360px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
@@ -777,7 +777,7 @@ main {
   color: #2e2f42;
 
   margin-bottom: 16px;
-  margin-top: 24px;
+  
 }
 
 .form-modal {
@@ -906,7 +906,7 @@ main {
   color: #4d5ae5;
 }
 
-input[type="checkbox"]:checked + .text-policy .span-svg-vector {
+.visually-hidden:checked + .text-policy  .span-svg-vector {
   background-color: #404bbf;
   fill: #F4F4FD
   border:none;

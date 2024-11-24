@@ -906,7 +906,7 @@ main {
   color: #4d5ae5;
 }
 
-.visually-hidden:checked + .text-policy  .span-svg-vector {
+input[type="checkbox"]:checked + .text-policy  .span-svg-vector {
   background-color: #404bbf;
   fill: #F4F4FD
   border:none;

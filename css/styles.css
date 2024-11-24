@@ -791,9 +791,11 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .feeld-modal {
@@ -813,6 +815,8 @@ main {
   padding-left: 38px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .input-modal:focus + .input-svg {
@@ -826,6 +830,7 @@ main {
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea {
